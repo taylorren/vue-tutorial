@@ -8,7 +8,7 @@ Vue.js是什么？它是一种编程语言，它有这么一些特性：
 
 在这个系列教程中，我将结合我从0开始学习Vue.js的经历，从头开始设计我的“[任氏有无轩](https://rsywx.net)”站点。
 
-目前运行的该站点基于[[https://symfony.com|Symfony]] 3完成。Symfony即将放出版本4，也许到了那个时候，我会再写一个用SF4来重写我这个站点的教程。请大家拭目以待。该站点首页显示如下：
+目前运行的该站点基于[Symfony 3](https://symfony.com)完成。Symfony即将放出版本4，也许到了那个时候，我会再写一个用SF4来重写我这个站点的教程。请大家拭目以待。该站点首页显示如下：
 
 ![](http://rsywx.com/lib/exe/fetch.php/vue:rsywx.net-symfony.png)
 
