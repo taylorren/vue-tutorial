@@ -1,2 +1,38 @@
-# vue-tutorial
-Vue.js tutorial for gitbook
+# 前言
+
+Vue.js是什么？它是一种编程语言，它有这么一些特性：
+
+  * 它是国人开发的一个基于Node.js的编程框架，速度快，轻便，语法自然。
+  * 做到了模板（V）和控制（C）的部分分离。我是比较喜欢这点的。也比React开发出来的JSX的混排要好一些。
+  * 学习曲线较为平缓，有JavaScript基础以及其他编程语言基础的话，很容易上手。
+
+在这个系列教程中，我将结合我从0开始学习Vue.js的经历，从头开始设计我的“[任氏有无轩](https://rsywx.net)”站点。
+
+目前运行的该站点基于[[https://symfony.com|Symfony]] 3完成。Symfony即将放出版本4，也许到了那个时候，我会再写一个用SF4来重写我这个站点的教程。请大家拭目以待。该站点首页显示如下：
+
+![](http://rsywx.com/lib/exe/fetch.php/vue:rsywx.net-symfony.png)
+
+本系列面对的读者应该：
+
+  * 具有基本的编程经验，至少熟悉一门Web编程语言（PHP或者JavaScript）；
+  * 有一定的Web开发经验，熟悉HTML5，CSS3；
+  * 对常见的Web前端布局框架（本应用使用的是Bootstrap）有一定的了解和掌握。
+
+本系列用到的开发环境为：
+
+  * Windows 10 64位版本
+  * NPM 5.5.1
+  * Node 8.9.1
+  * Visual Studio Code 1.18.1，带有相应的Vue扩展（Vue 2 snippets, Vetur）等。
+
+（以上版本如有更新，恕不一一通知）
+
+本系列注重实战，不会按照一般教程的顺序从语法、结构等基本概念入手。在构造“任氏有无轩”站点各个界面的过程中，会根据需要进行讲解。这样做的好处是每个概念的引入都有极强的代码和需求配合，而缺点在于缺乏系统的讲解——我会通过尽可能系统地讲述每个语法点来处理这个问题。
+
+**重要事项**
+
+注意，我们这个教程的开发会用到我另外开发的一个RESTful API接口。读者不需要知道这个API接口的开发详情，只需要知道该API接口在我们这个应用中被大量使用就是了。有关该API的文档说明，请参考[http://api.rsywx.com](http://api.rsywx.com)中的说明。
+
+本教程相应的文件已经上传到[Github](https://github.com/taylorren/rsywx.vue)。欢迎克隆、加星、指正！
+
+让我们开始吧！ 
